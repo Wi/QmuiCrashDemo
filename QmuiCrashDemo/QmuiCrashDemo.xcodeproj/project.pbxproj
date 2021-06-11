@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5B8540292F743AC035E5F9 /* Pods_QmuiCrashDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA4D8BE819AE742D5EA2626 /* Pods_QmuiCrashDemo.framework */; };
+		76B8281DF12667C5A55AE31E /* Pods_QmuiCrashDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC87258AC55957237527687 /* Pods_QmuiCrashDemoTests.framework */; };
+		97269D682672F71900FC8A23 /* DKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97269D672672F71900FC8A23 /* DKNavigationController.m */; };
+		97E793C526720B830078A166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793C426720B830078A166 /* AppDelegate.m */; };
+		97E793D026720B860078A166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97E793CF26720B860078A166 /* Assets.xcassets */; };
+		97E793D326720B860078A166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97E793D126720B860078A166 /* LaunchScreen.storyboard */; };
+		97E793D626720B860078A166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793D526720B860078A166 /* main.m */; };
+		97E793E026720B860078A166 /* QmuiCrashDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793DF26720B860078A166 /* QmuiCrashDemoTests.m */; };
+		97E793EB26720B860078A166 /* QmuiCrashDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793EA26720B860078A166 /* QmuiCrashDemoUITests.m */; };
+		97E793FA26720BB40078A166 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793F926720BB40078A166 /* FirstViewController.m */; };
+		97E793FD26720BC40078A166 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793FC26720BC40078A166 /* SecondViewController.m */; };
+		97E7940026720BD90078A166 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E793FF26720BD90078A166 /* ThirdViewController.m */; };
+		97E7940326720BEC0078A166 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E7940226720BEC0078A166 /* DetailViewController.m */; };
+		D7CADFC2D14C7E4BC07724E4 /* Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E681BCAF77D93BD31BD831C /* Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97E793DC26720B860078A166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E793B826720B830078A166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E793BF26720B830078A166;
+			remoteInfo = QmuiCrashDemo;
+		};
+		97E793E726720B860078A166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97E793B826720B830078A166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97E793BF26720B830078A166;
+			remoteInfo = QmuiCrashDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114BB0E74791C5CC148AC419 /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemo-QmuiCrashDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemo-QmuiCrashDemoUITests/Pods-QmuiCrashDemo-QmuiCrashDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		126CB34AD0DD00DA309A03D9 /* Pods-QmuiCrashDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemoTests/Pods-QmuiCrashDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC87258AC55957237527687 /* Pods_QmuiCrashDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QmuiCrashDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E681BCAF77D93BD31BD831C /* Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE7B7813E895B43CFE65FAD /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemo-QmuiCrashDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemo-QmuiCrashDemoUITests/Pods-QmuiCrashDemo-QmuiCrashDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97269D662672F71900FC8A23 /* DKNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNavigationController.h; sourceTree = "<group>"; };
+		97269D672672F71900FC8A23 /* DKNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKNavigationController.m; sourceTree = "<group>"; };
+		97269D6A2672F82400FC8A23 /* DKNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKNavigationProtocol.h; sourceTree = "<group>"; };
+		97E793C026720B830078A166 /* QmuiCrashDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QmuiCrashDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E793C326720B830078A166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97E793C426720B830078A166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97E793CF26720B860078A166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97E793D226720B860078A166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97E793D426720B860078A166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E793D526720B860078A166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97E793DB26720B860078A166 /* QmuiCrashDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QmuiCrashDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E793DF26720B860078A166 /* QmuiCrashDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QmuiCrashDemoTests.m; sourceTree = "<group>"; };
+		97E793E126720B860078A166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E793E626720B860078A166 /* QmuiCrashDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QmuiCrashDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E793EA26720B860078A166 /* QmuiCrashDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QmuiCrashDemoUITests.m; sourceTree = "<group>"; };
+		97E793EC26720B860078A166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E793F826720BB40078A166 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		97E793F926720BB40078A166 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		97E793FB26720BC40078A166 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		97E793FC26720BC40078A166 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		97E793FE26720BD90078A166 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		97E793FF26720BD90078A166 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		97E7940126720BEC0078A166 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		97E7940226720BEC0078A166 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		ABA4D8BE819AE742D5EA2626 /* Pods_QmuiCrashDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QmuiCrashDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC73036E7B68D5587B5D0E84 /* Pods-QmuiCrashDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemoTests.release.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemoTests/Pods-QmuiCrashDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F53EA3DB864DEF86C0DECC05 /* Pods-QmuiCrashDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemo.debug.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemo/Pods-QmuiCrashDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F8536C99BBD03EF8F69DA260 /* Pods-QmuiCrashDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QmuiCrashDemo.release.xcconfig"; path = "Target Support Files/Pods-QmuiCrashDemo/Pods-QmuiCrashDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97E793BD26720B830078A166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5B8540292F743AC035E5F9 /* Pods_QmuiCrashDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793D826720B860078A166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B8281DF12667C5A55AE31E /* Pods_QmuiCrashDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793E326720B860078A166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CADFC2D14C7E4BC07724E4 /* Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3685AFEA50B4F4E58E29F049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABA4D8BE819AE742D5EA2626 /* Pods_QmuiCrashDemo.framework */,
+				6E681BCAF77D93BD31BD831C /* Pods_QmuiCrashDemo_QmuiCrashDemoUITests.framework */,
+				2CC87258AC55957237527687 /* Pods_QmuiCrashDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97269D692672F7C500FC8A23 /* DKNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				97269D662672F71900FC8A23 /* DKNavigationController.h */,
+				97269D672672F71900FC8A23 /* DKNavigationController.m */,
+				97269D6A2672F82400FC8A23 /* DKNavigationProtocol.h */,
+			);
+			path = DKNavigation;
+			sourceTree = "<group>";
+		};
+		97E793B726720B830078A166 = {
+			isa = PBXGroup;
+			children = (
+				97E793C226720B830078A166 /* QmuiCrashDemo */,
+				97E793DE26720B860078A166 /* QmuiCrashDemoTests */,
+				97E793E926720B860078A166 /* QmuiCrashDemoUITests */,
+				97E793C126720B830078A166 /* Products */,
+				9F27B9554CD70123943BE75E /* Pods */,
+				3685AFEA50B4F4E58E29F049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97E793C126720B830078A166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97E793C026720B830078A166 /* QmuiCrashDemo.app */,
+				97E793DB26720B860078A166 /* QmuiCrashDemoTests.xctest */,
+				97E793E626720B860078A166 /* QmuiCrashDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97E793C226720B830078A166 /* QmuiCrashDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97269D692672F7C500FC8A23 /* DKNavigation */,
+				97E793C326720B830078A166 /* AppDelegate.h */,
+				97E793C426720B830078A166 /* AppDelegate.m */,
+				97E793CF26720B860078A166 /* Assets.xcassets */,
+				97E793D126720B860078A166 /* LaunchScreen.storyboard */,
+				97E793D426720B860078A166 /* Info.plist */,
+				97E793D526720B860078A166 /* main.m */,
+				97E793F826720BB40078A166 /* FirstViewController.h */,
+				97E793F926720BB40078A166 /* FirstViewController.m */,
+				97E793FB26720BC40078A166 /* SecondViewController.h */,
+				97E793FC26720BC40078A166 /* SecondViewController.m */,
+				97E793FE26720BD90078A166 /* ThirdViewController.h */,
+				97E793FF26720BD90078A166 /* ThirdViewController.m */,
+				97E7940126720BEC0078A166 /* DetailViewController.h */,
+				97E7940226720BEC0078A166 /* DetailViewController.m */,
+			);
+			path = QmuiCrashDemo;
+			sourceTree = "<group>";
+		};
+		97E793DE26720B860078A166 /* QmuiCrashDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				97E793DF26720B860078A166 /* QmuiCrashDemoTests.m */,
+				97E793E126720B860078A166 /* Info.plist */,
+			);
+			path = QmuiCrashDemoTests;
+			sourceTree = "<group>";
+		};
+		97E793E926720B860078A166 /* QmuiCrashDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97E793EA26720B860078A166 /* QmuiCrashDemoUITests.m */,
+				97E793EC26720B860078A166 /* Info.plist */,
+			);
+			path = QmuiCrashDemoUITests;
+			sourceTree = "<group>";
+		};
+		9F27B9554CD70123943BE75E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53EA3DB864DEF86C0DECC05 /* Pods-QmuiCrashDemo.debug.xcconfig */,
+				F8536C99BBD03EF8F69DA260 /* Pods-QmuiCrashDemo.release.xcconfig */,
+				6EE7B7813E895B43CFE65FAD /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.debug.xcconfig */,
+				114BB0E74791C5CC148AC419 /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.release.xcconfig */,
+				126CB34AD0DD00DA309A03D9 /* Pods-QmuiCrashDemoTests.debug.xcconfig */,
+				AC73036E7B68D5587B5D0E84 /* Pods-QmuiCrashDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97E793BF26720B830078A166 /* QmuiCrashDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E793EF26720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemo" */;
+			buildPhases = (
+				366398BA2A598D2D25B3284D /* [CP] Check Pods Manifest.lock */,
+				97E793BC26720B830078A166 /* Sources */,
+				97E793BD26720B830078A166 /* Frameworks */,
+				97E793BE26720B830078A166 /* Resources */,
+				5BFE613C4A4D229093F15AE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QmuiCrashDemo;
+			productName = QmuiCrashDemo;
+			productReference = 97E793C026720B830078A166 /* QmuiCrashDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97E793DA26720B860078A166 /* QmuiCrashDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E793F226720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemoTests" */;
+			buildPhases = (
+				26D892D1503AADF1011E9798 /* [CP] Check Pods Manifest.lock */,
+				97E793D726720B860078A166 /* Sources */,
+				97E793D826720B860078A166 /* Frameworks */,
+				97E793D926720B860078A166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E793DD26720B860078A166 /* PBXTargetDependency */,
+			);
+			name = QmuiCrashDemoTests;
+			productName = QmuiCrashDemoTests;
+			productReference = 97E793DB26720B860078A166 /* QmuiCrashDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97E793E526720B860078A166 /* QmuiCrashDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97E793F526720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemoUITests" */;
+			buildPhases = (
+				BA4EBAB7ED8EC830B8989BA1 /* [CP] Check Pods Manifest.lock */,
+				97E793E226720B860078A166 /* Sources */,
+				97E793E326720B860078A166 /* Frameworks */,
+				97E793E426720B860078A166 /* Resources */,
+				25A045DC85DD7DA9079ADBCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97E793E826720B860078A166 /* PBXTargetDependency */,
+			);
+			name = QmuiCrashDemoUITests;
+			productName = QmuiCrashDemoUITests;
+			productReference = 97E793E626720B860078A166 /* QmuiCrashDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97E793B826720B830078A166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					97E793BF26720B830078A166 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					97E793DA26720B860078A166 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 97E793BF26720B830078A166;
+					};
+					97E793E526720B860078A166 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 97E793BF26720B830078A166;
+					};
+				};
+			};
+			buildConfigurationList = 97E793BB26720B830078A166 /* Build configuration list for PBXProject "QmuiCrashDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97E793B726720B830078A166;
+			productRefGroup = 97E793C126720B830078A166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97E793BF26720B830078A166 /* QmuiCrashDemo */,
+				97E793DA26720B860078A166 /* QmuiCrashDemoTests */,
+				97E793E526720B860078A166 /* QmuiCrashDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97E793BE26720B830078A166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E793D326720B860078A166 /* LaunchScreen.storyboard in Resources */,
+				97E793D026720B860078A166 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793D926720B860078A166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793E426720B860078A166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25A045DC85DD7DA9079ADBCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo-QmuiCrashDemoUITests/Pods-QmuiCrashDemo-QmuiCrashDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo-QmuiCrashDemoUITests/Pods-QmuiCrashDemo-QmuiCrashDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo-QmuiCrashDemoUITests/Pods-QmuiCrashDemo-QmuiCrashDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26D892D1503AADF1011E9798 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QmuiCrashDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		366398BA2A598D2D25B3284D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QmuiCrashDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BFE613C4A4D229093F15AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo/Pods-QmuiCrashDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo/Pods-QmuiCrashDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QmuiCrashDemo/Pods-QmuiCrashDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA4EBAB7ED8EC830B8989BA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QmuiCrashDemo-QmuiCrashDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97E793BC26720B830078A166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E793FD26720BC40078A166 /* SecondViewController.m in Sources */,
+				97E793C526720B830078A166 /* AppDelegate.m in Sources */,
+				97E7940326720BEC0078A166 /* DetailViewController.m in Sources */,
+				97E793FA26720BB40078A166 /* FirstViewController.m in Sources */,
+				97E793D626720B860078A166 /* main.m in Sources */,
+				97269D682672F71900FC8A23 /* DKNavigationController.m in Sources */,
+				97E7940026720BD90078A166 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793D726720B860078A166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E793E026720B860078A166 /* QmuiCrashDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E793E226720B860078A166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E793EB26720B860078A166 /* QmuiCrashDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97E793DD26720B860078A166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E793BF26720B830078A166 /* QmuiCrashDemo */;
+			targetProxy = 97E793DC26720B860078A166 /* PBXContainerItemProxy */;
+		};
+		97E793E826720B860078A166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97E793BF26720B830078A166 /* QmuiCrashDemo */;
+			targetProxy = 97E793E726720B860078A166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97E793D126720B860078A166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97E793D226720B860078A166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97E793ED26720B860078A166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97E793EE26720B860078A166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97E793F026720B860078A166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53EA3DB864DEF86C0DECC05 /* Pods-QmuiCrashDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development: 正文 邓 (9N4L968HBU)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2MQ5CEMXLL;
+				INFOPLIST_FILE = QmuiCrashDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.smartHome.inHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = smartHomeInHouse_Dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97E793F126720B860078A166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8536C99BBD03EF8F69DA260 /* Pods-QmuiCrashDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development: 正文 邓 (9N4L968HBU)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2MQ5CEMXLL;
+				INFOPLIST_FILE = QmuiCrashDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hd.smartHome.inHouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = smartHomeInHouse_Dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97E793F326720B860078A166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 126CB34AD0DD00DA309A03D9 /* Pods-QmuiCrashDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QmuiCrashDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DengKong.Sky.QmuiCrashDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QmuiCrashDemo.app/QmuiCrashDemo";
+			};
+			name = Debug;
+		};
+		97E793F426720B860078A166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC73036E7B68D5587B5D0E84 /* Pods-QmuiCrashDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QmuiCrashDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DengKong.Sky.QmuiCrashDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QmuiCrashDemo.app/QmuiCrashDemo";
+			};
+			name = Release;
+		};
+		97E793F626720B860078A166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE7B7813E895B43CFE65FAD /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QmuiCrashDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DengKong.Sky.QmuiCrashDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QmuiCrashDemo;
+			};
+			name = Debug;
+		};
+		97E793F726720B860078A166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114BB0E74791C5CC148AC419 /* Pods-QmuiCrashDemo-QmuiCrashDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QmuiCrashDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = DengKong.Sky.QmuiCrashDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QmuiCrashDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97E793BB26720B830078A166 /* Build configuration list for PBXProject "QmuiCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E793ED26720B860078A166 /* Debug */,
+				97E793EE26720B860078A166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E793EF26720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E793F026720B860078A166 /* Debug */,
+				97E793F126720B860078A166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E793F226720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E793F326720B860078A166 /* Debug */,
+				97E793F426720B860078A166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97E793F526720B860078A166 /* Build configuration list for PBXNativeTarget "QmuiCrashDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97E793F626720B860078A166 /* Debug */,
+				97E793F726720B860078A166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97E793B826720B830078A166 /* Project object */;
+}

@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'QmuiCrashDemo' do
+  pod 'QMUIKit', '~> 4.2.3'
+  
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for QmuiCrashDemo
+
+  target 'QmuiCrashDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'QmuiCrashDemoUITests' do
+    # Pods for testing
+  end
+
+end
